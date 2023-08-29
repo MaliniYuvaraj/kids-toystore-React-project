@@ -1,0 +1,16 @@
+.dealsandpromotions
+{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+}
+.deals{
+    width:200px;
+    
+}
+.deals>img{
+    width:100%;
+}
+.deals>img:hover{
+    cursor:pointer;
+}

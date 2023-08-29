@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Office:ital@1&display=swap');
+*
+{
+    margin:0px;
+}
+nav{
+    background-color:#9e0059;
+    position:sticky;
+    top:0px;
+    z-index:2;
+}
+ul{
+    display:flex;
+    flex-wrap:wrap;
+    list-style:none;
+}
+ul>li
+{
+    display:block;
+    padding:20px;
+}  
+.nav
+{
+    text-decoration:none;
+    display:block;
+    font-size:1.4rem;
+    padding-top:10px;
+    color:#fff;
+    font-family: 'Ysabeau Office', sans-serif;
+}
+.nav:hover{
+color:aqua;
+}
+.carouselhead
+{
+    display:flex;
+    justify-content:center;
+}
+.Carousel
+{
+    width:85%;
+}
+h2{
+    font-size:1.5rem;
+    padding:20px;
+    font-family: 'Ysabeau Office', sans-serif;
+}
+.agegroup
+{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+}
+.age{
+    width:200px;
+    
+}
+.age>img{
+    width:100%;
+    transition:1s;
+    transform:scale(0.9);
+}
+.age>img:hover{
+    cursor:pointer;
+    transform:scale(1);
+}
+.dealsandpromotions
+{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+}
+.deals{
+    width:200px;
+    
+}
+.deals>img{
+    width:100%;
+    transition:1s;
+    transform:scale(0.9);
+}
+.deals>img:hover{
+    cursor:pointer;
+    transform:scale(1);
+}
+.categorygroup
+{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+}
+.category{
+    width:200px;
+    
+}
+.category>img{
+    width:100%;
+    transition:1s;
+    transform:scale(0.9);
+}
+.category>img:hover{
+    cursor:pointer;
+    transform:scale(1);
+}
+.brandgroup
+{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+}
+.brand{
+    width:200px;
+    
+}
+.brand>img{
+    width:100%;
+    transition:1s;
+    transform:scale(0.9);
+}
+.brand>img:hover{
+    cursor:pointer;
+    transform:scale(1);
+}
+.charactergroup
+{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+}
+.character{
+    width:200px;
+
+}
+.character>img{
+    width:100%;
+    transition:1s;
+    transform:scale(0.9);
+}
+.character>img:hover{
+    cursor:pointer;
+    transform:scale(1);
+}
+.background
+{
+    width:100%;
+    padding:30px 0px;
+}
+.background>img{
+    width:80%;
+}
